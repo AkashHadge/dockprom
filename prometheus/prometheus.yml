@@ -36,7 +36,7 @@ scrape_configs:
     metrics_path: /claimdb/actuator/prometheus
     static_configs:
      # - targets: [34.93.143.74:9096]
-      - targets: ['docker.for.win.localhost:9096']
+      - targets: ['docker.for.win.34.93.143.74:9096']
 
   - job_name: 'pushgateway'
     scrape_interval: 10s
